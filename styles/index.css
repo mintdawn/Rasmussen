@@ -8,18 +8,16 @@ body {
 
 }
 
-#logo {
-  
- }
-
-@media screen and (max-width: 500px) {
-
+.jumbotron {
+	width: 100%;
+	border-radius: 0px;
+	margin: 0;
 }
 
 #topbar {
-  position: relative;
   font-family: "Raleway";
   margin-bottom: 20px;
+  width: 100%
 }
 
 .avatar {
@@ -55,7 +53,7 @@ a:hover {
 }
 
 .card {
-  
+	
 }
 
 .footer {
