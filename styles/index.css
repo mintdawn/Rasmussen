@@ -52,6 +52,7 @@ a:hover {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 #factsDiv {
 	border-radius: 20px;
 	background: white;
@@ -71,6 +72,10 @@ a:hover {
 #factsImg {
 	margin-top: 10px;
 	margin-bottom: 10px;
+=======
+.card {
+	
+>>>>>>> 717282fb9109b6b598878f45764ee291244a3541
 }
 
 .footer {
