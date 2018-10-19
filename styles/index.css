@@ -8,18 +8,16 @@ body {
 
 }
 
-#logo {
-  
- }
-
-@media screen and (max-width: 500px) {
-
+.jumbotron {
+	width: 100%;
+	border-radius: 0px;
+	margin: 0;
 }
 
 #topbar {
-  position: relative;
   font-family: "Raleway";
   margin-bottom: 20px;
+  width: 100%
 }
 
 .avatar {
@@ -54,8 +52,25 @@ a:hover {
   text-decoration: none;
 }
 
-.card {
-  
+#factsDiv {
+	border-radius: 20px;
+	background: white;
+	color: black;
+}
+#factsBtn {
+	background: black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: gold;
+	font-family: "Fredoka One";
+}
+#facts {
+	font-family: "Raleway";
+	font-weight: bold;
+}
+#factsImg {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .footer {
