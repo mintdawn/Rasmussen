@@ -4,10 +4,6 @@ body {
   margin: 10px;
 }
 
-#wrapper {
-
-}
-
 .jumbotron {
 	width: 100%;
 	border-radius: 0px;
@@ -26,6 +22,20 @@ body {
   padding: 10px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.datainfo {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-radius: 20px;
+}
+.result {
+	box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+}
+
+.result:hover {
+  box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+  transform: translate3D(0, -2px, 0);
 }
 
 h1 {
@@ -52,7 +62,6 @@ a:hover {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
 #factsDiv {
 	border-radius: 20px;
 	background: white;
@@ -72,10 +81,6 @@ a:hover {
 #factsImg {
 	margin-top: 10px;
 	margin-bottom: 10px;
-=======
-.card {
-	
->>>>>>> 717282fb9109b6b598878f45764ee291244a3541
 }
 
 .footer {
