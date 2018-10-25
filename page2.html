@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
 	<title>Lucky Cat Noodle Company</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,45 +9,45 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredoka One">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.4.1/css/all.css' integrity='sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz' crossorigin='anonymous'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
   <body>
 <!-- main container for site -->
-  <div class="container-fluid text-center bg-warning" id="wrapper">
+  <div class="container-fluid text-center" id="wrapper">
 
 <!-- Jumbotron -->
 	<div class="row">
-		<div class="jumbotron text-center bg-dark text-warning">
-			<h1><a class="text-warning" href="index.html" style="text-decoration: none;">Lucky Cat Noodle Company</a></h1>
+		<div class="container-fluid p-4 text-center head">
+			<a href="index.html" style="text-decoration: none;"><h1 class="title">Lucky Cat Noodle Company</h1></a>
 		</div>
 	</div>
     
 <!-- top navbar -->
 	<div class="row">
-		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" id="topbar">
+		<nav class="navbar navbar-expand-md sticky-top navbar-light" id="topbar">
 
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
+			<span class="navbar-toggler-icon "></span>
 			</button>
 		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-			<a class="navbar-brand" href="index.html"><img class="img-fluid float-left" id="logo" width="100" src="https://www.unicornpoint.net/img/luckycat.png"></a>
 	
 		<div class="navbar-nav">
-			<a class="nav-item nav-link" href="index.html">Home</a>
-			<a class="nav-item nav-link" href="noodle.php">Noodle Database</a>
-			<a class="nav-item nav-link active" href="page2.html">Noodle Facts</a>
-			<a class="nav-item nav-link" href="page3.html">How to Eat</a>
+			<a class="nav-item nav-link" href="index.html"><i class="fa fa-home icons"></i> Home</a>
+			<a class="nav-item nav-link" href="noodle.php"><i class='fas fa-database icons'></i> Noodle Database</a>
+			<a class="nav-item nav-link active" href="page2.html"><i class="fa fa-info-circle"></i> Noodle Facts</a>
+			<a class="nav-item nav-link" href="page3.html"><i class='fab fa-youtube'></i> How to Eat</a>
 		</div>
 		</div>
 		</nav>
 	</div>
            
     <div class="container-fluid">
-     <h3>Noodle Facts</h3>
+     <h3 class="text-light">Noodle Facts</h3>
 	 <div class="container text-dark col-sm-12 col-md-6 col-lg-8" id="factsDiv">
-	 <img src="https://www.unicornpoint.net/img/ramen3.png" class="img-fluid" id="factsImg"/>
+	 <img src="ramen.gif" class="img-fluid" id="factsImg"/>
 	 <br>
 	 <span id="facts"></span>
 	 <script src="scripts/facts.js"></script>
@@ -58,7 +58,7 @@
 
 <!-- footer -->
 	<div class="row">
-		<div class="col-sm-12 col-lg-12 bg-dark footer">
+		<div class="col-sm-12 col-lg-12 footer">
 			<p class="text-light float-left">page2.html</p>
 			<p class="text-light float-right">Dawn Summerall - 2018</p>
 		</div>
