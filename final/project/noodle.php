@@ -2,9 +2,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Lucky Cat Noodle Company</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lucky Cat Noodle Company</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<link rel="stylesheet" href="styles/index.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette">
@@ -22,7 +22,7 @@
 
 <!-- Jumbotron -->
 	<div class="row">
-		<div class="container-fluid p-4 text-center head">
+		<div class="container-fluid text-center head">
 			<a href="index.html" style="text-decoration: none;"><h1 class="title">Lucky Cat Noodle Company</h1></a>
 		</div>
 	</div>
@@ -39,6 +39,7 @@
 		<div class="navbar-nav">
 			<a class="nav-item nav-link" href="index.html"><i class="fa fa-home icons"></i> Home</a>
 			<a class="nav-item nav-link active" href="noodle.php"><i class='fas fa-database icons'></i> Noodle Database</a>
+			<a class="nav-item nav-link" href="addnoodle.php"><i class="fa fa-edit"></i> Add a Noodle</a>
 			<a class="nav-item nav-link" href="page2.html"><i class="fa fa-info-circle"></i> Noodle Facts</a>
 			<a class="nav-item nav-link" href="page3.html"><i class='fab fa-youtube'></i> How to Eat</a>
 		</div>
@@ -57,6 +58,7 @@
 	$username = "noodleview"; 
 	$password = "test"; 
 	$dbname = "noodleworks";
+	
 	// Create connection 
 	$conn = new mysqli($servername, $username, $password, $dbname);
 	// Check connection 
@@ -85,13 +87,13 @@
 		</div>
 	</div>
 
-<!-- footer -->
+<footer class="page-footer">
 	<div class="row">
-		<div class="col-sm-12 col-lg-12 footer">
-			<p class="text-light float-left">noodle.php</p>
-			<p class="text-light float-right">Dawn Summerall - 2018</p>
+		<div class="container-fluid footer">
+			<p class="text-center">noodle.php</p>
 		</div>
-    </div>
+	</div>
+</footer>   
 
   </div>
   <script src="scripts/index.js"></script>

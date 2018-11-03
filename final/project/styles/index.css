@@ -1,0 +1,156 @@
+:root {
+	--black: #222222;
+	--gold: #EAB11A;
+	--grey: dimgrey;
+	--white: ghostwhite;
+	--red: #D90533;
+}
+
+body {
+	background: var(--black);
+	margin: 15px;
+	color: var(--black);
+}
+#wrapper {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background: var(--grey);
+}
+.head {
+	padding-top: 40px;
+	padding-bottom: 50px;
+	background: var(--red);
+	background-image: url("https://www.unicornpoint.net/img/luckycat.png");
+	background-repeat: no-repeat;
+	background-size: auto 150px;
+	background-origin: padding-box;
+}
+@media only screen and (max-width: 900px) {
+	.head {
+		background-image: none;
+	}
+}
+.title {
+	color: var(--white);
+}
+.title a:hover {
+	color: var(--gold);
+}
+#logo {
+	float: left;
+	max-width: 200px;
+	vertical-align: baseline;
+}
+
+#topbar {
+  font-family: "Raleway";
+  margin-bottom: 20px;
+  width: 100%;
+  background: var(--gold);
+}
+#topbar a:hover {
+	background: var(--black);
+	color: var(--gold);
+}
+
+.avatar {
+  max-height: 200px;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.learnbtn {
+	background: var(--black);
+	color: var(--white);
+	font-weight: bold;
+	border-radius: 20px;
+}
+
+.datainfo {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-radius: 20px;
+	background: var(--white);
+}
+.result {
+	box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+}
+
+.result:hover {
+  box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+  transform: translate3D(0, -2px, 0);
+}
+
+.formwrapper {
+	width: 100%;
+	border-radius: 20px;
+	background: var(--white);
+	color: var(--black);
+}
+.noodlebtn {
+	background: var(--black);
+	color: var(--white);
+}
+.noodlebtn:hover {
+	background: var(--gold);
+	color: var(--black);
+}
+
+h1 {
+  font-family: "Courgette";
+}
+
+h3 {
+   font-family: "Fredoka One";
+}
+
+h4 {
+  font-family: "Fredoka One";
+}
+
+p {
+  font-family: "Raleway";
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: none;
+  color: var(--gold);
+}
+
+#factsDiv {
+	border-radius: 20px;
+	background: white;
+	color: var(--black);
+	min-height: 450px;
+}
+#factsBtn {
+	background: var(--black);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: var(--white);
+	font-family: "Fredoka One";
+}
+#facts {
+	font-family: "Raleway";
+	font-weight: bold;
+}
+#factsImg {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	max-height: 250px;
+}
+
+.footer {
+	bottom: 0;
+	width: 100%;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	background: var(--red);
+	color: var(--white);
+}
