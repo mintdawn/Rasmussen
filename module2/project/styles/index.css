@@ -1,0 +1,61 @@
+
+body {
+  background: #111111;
+  margin: 10px;
+}
+
+#wrapper {
+
+}
+
+.jumbotron {
+	width: 100%;
+	border-radius: 0px;
+	margin: 0;
+}
+
+#topbar {
+  font-family: "Raleway";
+  margin-bottom: 20px;
+  width: 100%
+}
+
+.avatar {
+  width: 50%;
+  height: auto;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+  font-family: "Courgette";
+}
+
+h3 {
+   font-family: "Fredoka One";
+}
+
+h4 {
+  font-family: "Fredoka One";
+}
+
+p {
+  font-family: "Raleway";
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.card {
+	
+}
+
+.footer {
+  margin-top: 20px;
+}

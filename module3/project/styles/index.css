@@ -1,0 +1,88 @@
+
+body {
+  background: #111111;
+  margin: 10px;
+}
+
+.jumbotron {
+	width: 100%;
+	border-radius: 0px;
+	margin: 0;
+}
+
+#topbar {
+  font-family: "Raleway";
+  margin-bottom: 20px;
+  width: 100%
+}
+
+.avatar {
+  width: 50%;
+  height: auto;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.datainfo {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-radius: 20px;
+}
+.result {
+	box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+}
+
+.result:hover {
+  box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+  transform: translate3D(0, -2px, 0);
+}
+
+h1 {
+  font-family: "Courgette";
+}
+
+h3 {
+   font-family: "Fredoka One";
+}
+
+h4 {
+  font-family: "Fredoka One";
+}
+
+p {
+  font-family: "Raleway";
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: none;
+}
+
+#factsDiv {
+	border-radius: 20px;
+	background: white;
+	color: black;
+}
+#factsBtn {
+	background: black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: gold;
+	font-family: "Fredoka One";
+}
+#facts {
+	font-family: "Raleway";
+	font-weight: bold;
+}
+#factsImg {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.footer {
+  margin-top: 20px;
+}
