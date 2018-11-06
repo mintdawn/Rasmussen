@@ -6,8 +6,8 @@ This website was created for the Rasmussen College Fundamentals of Mobile Web Ap
 
 1. Fork and clone this repository.
 2. It can be run on a local web server or installed onto a host.
-3. The website requires a MySql database to be created to use the two pages that depend on the database.
-4. If the user is going to use the website with the database, there are a few variables that will need to be personalized with the information about the site where the website will be hosted. The database name, the table name, the user name and the user password variables will need to be exchanged with the hosts user name and password for whatever database they will be using. A user account will have to be created with the CREATE and SELECT priveledges.
+3. The website requires a MySQL database to be created to use the two pages that depend on the database.
+4. If the user is going to use the website with the database, there are a few variables that will need to be personalized with the information about the site where the website will be hosted. The database name, the table name, the user name and the user password variables will need to be exchanged with the hosts user name and password for whatever database they will be using. A user account will have to be created with the CREATE and SELECT privileges.
 
 # Usage
 
