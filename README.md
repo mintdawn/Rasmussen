@@ -1,4 +1,49 @@
-# Rasmussen
+# Lucky Cat Noodle Company Website
+
+This website was created for the Rasmussen College Fundamentals of Mobile Web Application Development class. It is a mockup of a fictional site about a company that provides an Asian noodle database. The website is simple and uses Bootstrap and CSS to help with mobile responsiveness. The website connects to an Asian noodle themed database. One page has the ability to list all the items in the database on a web page with php. Another page has the ability to add a noodle to the database. A person could use this site as a template to create a simple site like this of their own.
+
+# Installation Instructions
+
+1. Fork and clone this repository.
+2. It can be run on a local web server or installed onto a host.
+3. The website requires a MySql database to be created to use the two pages that depend on the database.
+4. If the user is going to use the website with the database, there are a few variables that will need to be personalized with the information about the site where the website will be hosted. The database name, the table name, the user name and the user password variables will need to be exchanged with the hosts user name and password for whatever database they will be using. A user account will have to be created with the CREATE and SELECT priveledges.
+
+# Usage
+
+Browse to the site with a web browser. [Lucky Cat Noodle Company](https://www.unicornpoint.net/noodles)
+To add a noodle: Enter the name of the noodle in the first text field. Enter what type of noodle you are entering (rice, wheat, egg, etc.). Give a brief description of how the noodle is used in recipes. Where is it from? What is the noodle like? Then click the "Add the Noodle" button. You can return to the Noodle Database page to view your entry.
+
+# Credits
+
+Author: Dawn Summerall
+
+# License
+
+MIT License
+
+Copyright (c) [2018] [Dawn Summerall]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+# Timeline of Changes
+
 A repository created for the Rasmussen class Fundamentals of Mobile Web Application Development.
 
 This is an imaginary site done for class. Eventually it will connect to a database.
